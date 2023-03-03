@@ -21,7 +21,7 @@ console.log(__dirname+"/images/mithunlogo.jpg");
 */
 app.get('/yvaltechnologies', function(request, response) {
     //response.send("<h2><center>Welcome to Node JS app</h2>");
-    response.write("<h2><center><u>You Just Deployed Your First Node JS  Application </u></center></h2>");
+    response.write("<h2><center><u>You Just Deploy Your First Node JS  Application </u></center></h2>");
 	
     response.write("<h2><center>Welcome to  Yval Technologies. Please Contact me | yvalcorp@gmail.com <center></h2>" );
     response.end();
@@ -33,7 +33,7 @@ app.get('/yvaltechnologies', function(request, response) {
 app.get("/html", function(req,res){
     res.set("Content-Type","text/html");
     //res.contentType("html") ; 
-    res.write("<h2>Welcome Docker</h2>");
+    res.write("<h2>Welcome, Tu as Perce Mon Frere</h2>");
     res.write("<h2>/html call</h2>");
     //must end 
     res.end();
