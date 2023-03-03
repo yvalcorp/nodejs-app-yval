@@ -21,9 +21,9 @@ console.log(__dirname+"/images/mithunlogo.jpg");
 */
 app.get('/yvaltechnologies', function(request, response) {
     //response.send("<h2><center>Welcome to Node JS app</h2>");
-    response.write("<h2><center><u>Node JS  Application </u></center></h2>");
+    response.write("<h2><center><u>You Just Deployed Your First Node JS  Application </u></center></h2>");
 	
-    response.write("<h2><center>Welcome to  Mithun Technologies. Please Contact +91-9980923226,++91-9980923216 for more information or send an email to devopstrainingblr@gmail.com <center></h2>" );
+    response.write("<h2><center>Welcome to  Yval Technologies. Please Contact me | yvalcorp@gmail.com <center></h2>" );
     response.end();
     
   })
@@ -42,11 +42,11 @@ app.get("/html", function(req,res){
     app.get("/jsonData", function(req,res){
         res.type('json');
         //res.type('application/json');
-        //res.json({'name': 'Mithun Reddy L'});
+        //res.json({'name': 'Paul V Simo'});
         res.send({
-		'name': 'Mithun Technologies',
+		'name': 'yvalcorp Technologies',
 		'technology': 'DevOps',
-		'contact' : '9980923226',
+		'contact' : '832',
 		'email': 'yvalcorp@gmail.com'
 	            });
         
@@ -70,7 +70,7 @@ app.get("/status-code-500", function(req, res) {
 
 app.get('/redirect', function(req, res) {
     //Send status 300
-        res.redirect('http://mithuntechnologies.com');
+        res.redirect('http://yvalcorp.com');
     });
     
  
